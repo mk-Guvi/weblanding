@@ -1,0 +1,13 @@
+body{
+   overflow-y: hidden;
+    margin: 0%;
+    height:100%;
+    padding: 20px;
+}
+html{
+    overflow:auto;
+    overflow-x: hidden;
+    margin: 0%;
+    height:100%;
+    padding: 20px;
+}
