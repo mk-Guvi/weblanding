@@ -1,67 +1,69 @@
-
-*{
- 
+* {
   text-decoration: none;
   list-style: none;
   font-family: "Raleway";
 }
 
-.sidebar{
+.sidebar {
   position: fixed;
   left: 0;
-  
+
   width: 10%;
   height: 100%;
-  
 }
 
-.title{
+.title {
   margin-top: 0;
   font-size: 2rem;
   font-weight: bolder;
   color: black;
-  margin-left:30px;
-  margin-bottom:20px;
+  margin-left: 30px;
+  margin-bottom: 20px;
   line-height: 30px;
-
 }
-.sidebar ul li a{
-  
+.sidebar ul li a {
   display: block;
   color: #b7b7b7 !important;
   line-height: 60px;
-  font-size: 1rem;  
+  font-size: 1rem;
   padding: 2% 2% 1% 35%;
 }
 
-.sidebar ul li a:hover{
-  
-  transition: .5s !important;
-  color:black !important;
-  
+.sidebar ul li a:hover {
+  transition: 0.5s !important;
+  color: black !important;
 }
 
-.button{
-
-  margin-left:110px !important ;
-  border-radius: 50px; 
+.button {
+  margin-left: 110px !important ;
+  border-radius: 50px;
   padding: 4% 15% 4% 15%;
-  font-size:20px;
-  color:white !important;
+  font-size: 20px;
+  color: white !important;
   background-color: #d9422d;
 }
 
-.button:hover{
-  transition:0.8s !important;
+.button:hover {
+  transition: 0.8s !important;
   background-color: grey;
 }
-.is-active{
-  text-decoration:  line-through #d9422d !important;
-  
+.is-active {
+  text-decoration: line-through #d9422d !important;
 }
-@media screen and (max-width:760px){
- .sidebar{
-    display:none !important;
-   }
-    
+@media screen and (max-width: 760px) {
+  .sidebar ul li a {
+    display: none;
+  }
+  .button {
+    display: none;
+  }
+  .title {
+    position: fixed;
+    top: 0px;
+    left: 30%;
+    padding: 30px 0px 0px 0px;
+  }
+  #deleteText {
+    display: none;
+  }
 }

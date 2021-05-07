@@ -1,13 +1,15 @@
-import React from 'react'
-import './style.css'
-import { NavLink } from 'react-router-dom'
+import React from "react";
+import "./style.css";
+import { NavLink } from "react-router-dom";
 function Sidebar() {
   //   const [isOpen, setOpen] = useState(false)
   return (
     <div className="sidebar">
       <ul>
         <li>
-          <h1 className="title">Lorem Ipsum</h1>
+          <h1 className="title">
+            Lorem <span id="deleteText">Ipsum</span>
+          </h1>
         </li>
         <li>
           <NavLink activeClassName="is-active" exact to="/">
@@ -46,7 +48,7 @@ function Sidebar() {
         Cart
       </NavLink>
     </div>
-  )
+  );
 }
 
-export default Sidebar
+export default Sidebar;
