@@ -1,9 +1,9 @@
 const IMAGES = {
-  Burger: require('../../images/imagen.jpg').default,
-  Taco: require('../../images/taco.jpg').default,
-  Pizza: require('../../images/pizza2.jpg').default,
-  Nachoes:require('../../images/nachoes.jpg').default,
-  Noodels:require('../../images/noodles.jpg').default
-}
+  Burger: require("../../images/imagen.jpg"),
+  Taco: require("../../images/taco.jpg"),
+  Pizza: require("../../images/pizza2.jpg"),
+  Nachoes: require("../../images/nachoes.jpg"),
+  Noodels: require("../../images/noodles.jpg")
+};
 
-export default IMAGES
+export default IMAGES;
