@@ -13,7 +13,7 @@ function Main() {
   return (
     <div>
       <img id="icon" alt="icon" src={IMAGES.icon} />
-      <img id="cart" alt="cart" src={IMAGES.cart} />
+
       <div className="main">
         <h1 className="title1">What are you having For Lunch?</h1>
         <div className="title2">
