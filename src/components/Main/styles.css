@@ -20,6 +20,14 @@
   margin-top: 30px;
   margin-left: 20px;
 }
+hr.Hr {
+  position: relative;
+  top: 10px;
+  left: -33%;
+  background-color: red;
+  height: 1;
+  width: "33%";
+}
 
 .content {
   display: flex;
