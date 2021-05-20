@@ -20,12 +20,10 @@ function Main() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut <br /> laboreet.
           <hr
-            id="hr"
             style={{
               position: "relative",
               top: "10px",
               left: "-33%",
-              color: "red",
               backgroundColor: "red",
               height: 1,
               width: "33%"
