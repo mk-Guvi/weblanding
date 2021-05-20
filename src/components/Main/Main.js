@@ -22,16 +22,17 @@ function Main() {
           <hr
             id="hr"
             style={{
-              position: "fixed",
-              marginTop: "1%",
+              position: "relative",
+              top: "10px",
+              left: "-33%",
               color: "red",
               backgroundColor: "red",
-              height: 2,
-              width: "6%"
+              height: 1,
+              width: "33%"
             }}
           />
         </div>
-        <br />
+
         <br />
       </div>
       <div className="content">
